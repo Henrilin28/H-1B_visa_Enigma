@@ -22,10 +22,10 @@ Exploratory Data Analysis
 
   There are certain deadline for H-1B applications. Through visualizing the application timeline, It can clear show you when is the right time to apply the H-1B visa and How long you are going to wait, which is really important for foreign workers!
 
-  ![word_graph](/Users/Henrilin28/Dropbox/CUSP_2016/H-1B_visa_Enigma/src/time_diff.png)
+  ![time_diff](./src/time_diff.png)
 
 - What kind of job should international search for? 
 
   jobs title and SOC code can provide information about what are the top applicants' job are. By using groupy by function. Plot can be easily generate. Moreover, Words can be also visualized by wordcloud.
 
-  ![word_graph](/Users/Henrilin28/Dropbox/CUSP_2016/H-1B_visa_Enigma/src/word_graph.png)
+  ![word_graph](./src/word_graph.png)

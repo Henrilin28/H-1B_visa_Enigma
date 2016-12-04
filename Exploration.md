@@ -14,10 +14,6 @@ There are some intreresting questions come up my mind and I divided them into tw
 
 ### Exploratory Data Analysis
 
-- Spatial Info visualization:
-
-  spatial information can be visualized  by summarizing the city information. shapely, Fiona and geopandas can be used to discover the spatial pattern of the data.
-
 - How long should an employee work for a company
 
   There is certain deadline for H-1B applications. Through visualizing the application timeline, It can clear show you when is the right time to apply for the H-1B visa and How long you are going to wait, which is really important for foreign workers!
@@ -25,6 +21,12 @@ There are some intreresting questions come up my mind and I divided them into tw
   ![time_diff](./src/time_diff.png)
   
   From the figures, we can find out around 80% people wait no more than 100 days. Therefore, the applicant should expect the application result will be around 3 months. For further study, we should take the application result into account so we can understand that what normally the accepted result it is.
+
+
+- Spatial Info visualization:
+
+  spatial information can be visualized  by summarizing the city information. shapely, Fiona and geopandas can be used to discover the spatial pattern of the data.
+
 
 - What kind of job should international search for? 
 

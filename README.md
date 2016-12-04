@@ -2,11 +2,11 @@
 ## Please find summary in exploration.md
 ### There are two parts of code in thie repo
 
-- *.ipynb which are ipython notebooks with analysis and code
+- *.ipynb are ipython notebooks with analysis and code
 
-- *.py which are python code for organizing functions
+- *.py are python code for organizing functions
 
-I spend around six hours for the above works. This is my first time dive into H-1B Visa data. There are so many interesting questions can be asked and data itself is not as clean as I thought. Therefore, I spend 1/3 of time figuring out what is the right format for analysis.
+I spend around four hours for the above works. This is my first time dive into H-1B Visa data. There are so many interesting questions can be asked and data itself is not as clean as I thought. Therefore, I spend 1/3 of time figuring out what is the right format for analysis.
 
 My analysis can be devided into three parts:
 

@@ -18,7 +18,7 @@ There are some intreresting questions come up my mind and I divided them into tw
 
   There is certain deadline for H-1B applications. Through visualizing the application timeline, It can clear show you when is the right time to apply for the H-1B visa and How long you are going to wait, which is really important for foreign workers!
 
-  ![time_diff](./src/time_diff.png)
+  ![time_diff](./img/time_diff.png)
   
   From the figures, we can find out around 80% people wait no more than 100 days. Therefore, the applicant should expect the application result will be around 3 months. For further study, we should take the application result into account so we can understand that what normally the accepted result it is.
 
@@ -32,4 +32,4 @@ There are some intreresting questions come up my mind and I divided them into tw
 
   jobs title and SOC code can provide information about what are the top applicants' job are. By using groupy by function. The plot can be easily generated. Moreover, Words can be also visualized by word cloud.
 
-  ![word_graph](./src/word_graph.png)
+  ![word_graph](./img/word_graph.png)

@@ -8,14 +8,18 @@ def uni_wage(df):
 
     attr_from = "lca_case_wage_rate_from"
     attr_to = "lca_case_wage_rate_to"
+
+    unit = ["bi-weekly", "hour", "month", "week", "unknown"]
     for index, x in df.iterrows():
 
-        if x["lca_case_wage_rate_unit"] == "Bi-Weekly":
+        condition = x["lca_case_wage_rate_unit"].strip().lower()
+
+        if condition == unit[0]:
 
             x[attr_from] = 24 * x[attr_from]
             x[attr_to] = 24 * x[attr_to]
 
-        elif x["lca_case_wage_rate_unit"] == "Hour":
+        elif condition == unit[1]:
 
             if x[attr_from] < 50000 and x[attr_from] > 10:
                 x[attr_from] = float(8760) * x[attr_from]
@@ -23,16 +27,16 @@ def uni_wage(df):
             else:
                 print "wrong_unit: Hour, pay:{}".format(x[attr_from])
 
-        elif x["lca_case_wage_rate_unit"] == "Month":
+        elif condition == unit[2]:
             x[attr_from] = 12 * x[attr_from]
             x[attr_to] = 12 * x[attr_to]
 
-        elif x["lca_case_wage_rate_unit"] == "UNKNOWN":
+        elif condition == unit[3]:
 
             drop_idx = index
             print drop_idx
 
-        elif x["lca_case_wage_rate_unit"] == "Week":
+        elif condition == unit[4]:
 
             x[attr_from] = 48 * x[attr_from]
             x[attr_to] = 48 * x[attr_to]
